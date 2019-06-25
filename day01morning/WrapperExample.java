@@ -10,6 +10,7 @@ public class WrapperExample {
 
       Wrapper w1 = new Wrapper();
       Wrapper w2 = new Wrapper();
+      System.out.println(w2);
       w1.value = 42;
       w2 = w1;
       System.out.println(w1.value);

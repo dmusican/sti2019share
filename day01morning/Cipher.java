@@ -14,7 +14,7 @@ public class Cipher
     for (int i=0; i < original.length(); i++)
     {
       char letter = original.charAt(i);
-      System.out.println(letter + " " + (char)(letter+key));
+      System.out.println(letter + " " + (char)((int)letter+key));
       
     }
     

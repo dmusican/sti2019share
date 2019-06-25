@@ -14,7 +14,12 @@ public class Cipher
     for (int i=0; i < original.length(); i++)
     {
       char letter = original.charAt(i);
-      result = result + (char)((int)letter+key);
+      char newLetter = (char)((int)letter+key);
+      if (newLetter > 'z')
+      {
+        newLetter = (char)((int)newLetter-26);
+      }
+      result = result + newLetter;
     }
     System.out.println(result);
   }

@@ -11,7 +11,7 @@ public class Cipher
     int key = ourKeyboard.nextInt();
     
     String result = "";
-    for (int i=0; i < original.length; i++)
+    for (int i=0; i < original.length(); i++)
     {
       System.out.println(original.charAt(i));
     }

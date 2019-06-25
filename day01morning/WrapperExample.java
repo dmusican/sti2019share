@@ -6,7 +6,7 @@ public class WrapperExample {
       int y = x;
       x = 7;
       System.out.println(x);
-      /*&System.out.println(x);
+      System.out.println(y);
 
       Wrapper w1 = new Wrapper();
       Wrapper w2 = new Wrapper();

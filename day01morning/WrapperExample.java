@@ -8,7 +8,7 @@ public class WrapperExample {
       System.out.println(x);
       System.out.println(y);
 
-      Wrapper w1 = new Wrapper();
+      /*Wrapper w1 = new Wrapper();
       Wrapper w2 = new Wrapper();
       w1.value = 42;
       w2 = w1;

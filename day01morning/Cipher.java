@@ -8,5 +8,8 @@ public class Cipher
     Scanner ourKeyboard = new Scanner(System.in);
     String original = ourKeyboard.next();
     System.out.println(original);
+    System.out.println("What is the key? ");
+    int key = ourKeyboard.nextInt();
+    System.out.println(key);
   }
 }

@@ -12,18 +12,16 @@ class Primes3 {
     }
     System.out.println(possiblePrime.size());
 
-    /*
-
-    for (int i=2; i < possiblePrime.length; i++)
+    for (int i=2; i < possiblePrime.size(); i++)
     {
-      if (possiblePrime[i].equals("true"))
+      if (possiblePrime.get(i) == true)
       {
         System.out.println(i);
-        for (int j = i+i; j < possiblePrime.length; j = j + i)
+        for (int j = i+i; j < possiblePrime.size(); j = j + i)
         {
-          possiblePrime[j] = "false";
+          possiblePrime.set(j,false);
         }
       }
-    }*/
+    }
   }
 }

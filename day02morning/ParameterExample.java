@@ -13,10 +13,10 @@ public class ParameterExample {
    public static void main(String[] args) {
       int z = 9;
       System.out.println(z);
-      /*method1(z);
+      method1(z);
       System.out.println(z);
 
-      System.out.println();
+      /*System.out.println();
 
       Wrapper w = new Wrapper();
       w.value = 5;

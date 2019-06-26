@@ -13,7 +13,6 @@ public class Game
         System.out.println(die2.onTop());
         die2.roll();
         System.out.println(die2.onTop());    
-        
                
     }
         

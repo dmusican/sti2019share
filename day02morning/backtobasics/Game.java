@@ -3,7 +3,10 @@ public class Game
 {
     public static roll(int numSides)
     {
-        
+        return (int)(Math.random()*numSides) + 1;
+    }
+    
+    publi
     public static void main(String[] args)
     {
         System.out.println(roll(6));

@@ -1,6 +1,6 @@
 class Primes2 {
   public static void main(String[] args) {
-    int size = 5;
+    int size = 100;
 
     String[] possiblePrime = new String[size];
 

@@ -1,12 +1,13 @@
 #BlueJ class context
 comment0.target=Die
-comment1.params=newSides
-comment1.target=Die(int)
-comment1.text=public\ Die()\n\ \ \ \ {\n\ \ \ \ \ \ \ \ //topValue\ \=\ 1;\n\ \ \ \ \ \ \ \ numSides\ \=\ 6;\n\ \ \ \ \ \ \ \ roll();\n\ \ \ \ \ \ \ \ //this(6);\n}
-comment2.params=newTop
-comment2.target=void\ setTop(int)
-comment3.params=
-comment3.target=int\ onTop()
+comment1.params=
+comment1.target=Die()
+comment2.params=newSides
+comment2.target=Die(int)
+comment3.params=newTop
+comment3.target=void\ setTop(int)
 comment4.params=
-comment4.target=void\ roll()
-numComments=5
+comment4.target=int\ onTop()
+comment5.params=
+comment5.target=void\ roll()
+numComments=6

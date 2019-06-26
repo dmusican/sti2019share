@@ -5,6 +5,7 @@ public class Game
     {
         Die die1 = new Die();
         System.out.println(die1.onTop());
+        die1.roll();
         
         
         

@@ -4,10 +4,10 @@ class Primes2 {
 
     String[] possiblePrime = new String[size];
 
-    for (int i=0; i < possiblePrime.length; i++)
+    /*for (int i=0; i < possiblePrime.length; i++)
     {
       System.out.println(i + " " + possiblePrime[i]);
-    }
+    }*/
     
     for (String s : possiblePrime)
     {

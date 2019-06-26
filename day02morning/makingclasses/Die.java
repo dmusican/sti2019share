@@ -3,13 +3,14 @@ public class Die
 {
     private int topValue;
     private int numSides;
-    private static int numDiceCreated;
+    private static int numDiceCreated = 0;
     
     public Die()
     {
         //topValue = 1;
         numSides = 6;
         roll();
+        
         //this(6);
     }
     

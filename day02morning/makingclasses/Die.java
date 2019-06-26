@@ -5,6 +5,7 @@ public class Die
     
     public Die()
     {
+        
     }
     public int onTop()
     {

@@ -21,6 +21,8 @@ public class Die
         numDiceCreated++;
     }
     
+    
+    
     public void setTop(int newTop)
     {
         topValue = newTop;

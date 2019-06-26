@@ -3,7 +3,9 @@ public class Die
 {
     private int topValue;
     
-    
+    public Die()
+    {
+        
     public int onTop()
     {
         return topValue;

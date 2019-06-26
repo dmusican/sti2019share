@@ -1,7 +1,7 @@
 
 public class Game
 {
-    public static roll(int numSides)
+    public static int roll(int numSides)
     {
         return (int)(Math.random()*numSides) + 1;
     }

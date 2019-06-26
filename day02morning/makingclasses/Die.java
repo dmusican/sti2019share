@@ -7,5 +7,5 @@ public class Die
     }
     
     public  roll() {
-        
+    }
 }

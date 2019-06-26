@@ -18,6 +18,7 @@ public class Die
     {
         numSides = newSides;
         roll();
+        numDiceCreated++;
     }
     
     public void setTop(int newTop)

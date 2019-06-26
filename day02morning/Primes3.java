@@ -8,7 +8,7 @@ class Primes3 {
     
     for (int i=0; i < numPrimes; i++)
     {
-      possiblePrime.add(false);
+      possiblePrime.add(true);
     }
     System.out.println(possiblePrime.size());
 

@@ -7,6 +7,10 @@ public class Game
         System.out.println(die1.onTop());
         die1.roll();
         System.out.println(die1.onTop());    
+        Die die1 = new Die();
+        System.out.println(die1.onTop());
+        die1.roll();
+        System.out.println(die1.onTop());    
                
     }
         

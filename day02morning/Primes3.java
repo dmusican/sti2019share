@@ -5,12 +5,12 @@ class Primes3 {
     int numPrimes = 100;
 
     ArrayList<Boolean> possiblePrime = new ArrayList<Boolean>();
-    System.out.println(possiblePrime.size());
     
     for (int i=0; i < numPrimes; i++)
     {
       possiblePrime.add(false);
     }
+    System.out.println(possiblePrime.size());
 
     /*
 

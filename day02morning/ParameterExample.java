@@ -21,7 +21,7 @@ public class ParameterExample {
       Wrapper w = new Wrapper();
       w.value = 5;
       System.out.println(w.value);
-      /*method2(w);
-      System.out.println(w.value);*/
+      method2(w);
+      System.out.println(w.value);
    }
 }

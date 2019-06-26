@@ -9,6 +9,11 @@ public class Die
         roll();
     }
     
+    public void setTop(int newTop)
+    {
+        topValue = newTop;
+    }
+    
     public int onTop()
     {
         return topValue;

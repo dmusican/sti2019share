@@ -8,7 +8,7 @@ public class Die
     {
         //topValue = 1;
         roll();
-        
+        numSides = 6;
     }
     
     public void setTop(int newTop)

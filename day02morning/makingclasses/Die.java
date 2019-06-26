@@ -13,6 +13,7 @@ public class Die
     
     public Die(int newSides)
     {
+        
         numSides = newSides;
     }
     

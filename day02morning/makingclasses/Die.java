@@ -1,7 +1,7 @@
 
 public class Die
 {
-    public int onTop()
+    public String onTop()
     {
         return 0;
     }

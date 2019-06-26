@@ -1,21 +1,18 @@
-import java.util.ArrayList;
-
-class Primes3 { 
+class Primes2 {
   public static void main(String[] args) {
-    int numPrimes = 100;
+    int size = 100;
 
-    ArrayList<Boolean> possiblePrime = new ArrayList<Boolean>();
-    System.out.println(possiblePrime.size());
-    
+    String[] possiblePrime = new String[size];
+
     /*for (int i=0; i < possiblePrime.length; i++)
     {
       System.out.println(i + " " + possiblePrime[i]);
     }*/
     
-    /*for (String s : possiblePrime)
+    for (String s : possiblePrime)
     {
       System.out.println(s);
-    }*/
+    }
     
     /*
 

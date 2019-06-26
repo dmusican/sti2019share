@@ -10,6 +10,6 @@ public class Die
     
     public void roll()
     {
-        topValue = 3;
+        topValue = (int)(Math.random()*6)+1;
     }
 }

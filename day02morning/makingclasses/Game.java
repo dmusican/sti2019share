@@ -7,7 +7,8 @@ public class Game
         System.out.println(die1.onTop());
         die1.roll();
         die1.setTop(3);
-        System.out.println(die1.onTop());    
+        System.out.println(die1.onTop());
+        
 
         Die die2 = new Die(12);
         System.out.println(die2.onTop());

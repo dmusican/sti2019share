@@ -3,6 +3,7 @@ public class Die
 {
     private int topValue;
     
+    
     public Die()
     {
         //topValue = 1;

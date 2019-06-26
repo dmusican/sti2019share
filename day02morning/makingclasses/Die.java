@@ -6,5 +6,6 @@ public class Die
         return 0;
     }
     
-    
+    public  roll() {
+        
 }

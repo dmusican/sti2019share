@@ -1,5 +1,6 @@
 public class Tryit {
   public static void main(String[] args) {
-    System.out.println("hiyiu" == ("h"+"iyiu"));
+    String thing = "h" + "iyiu";
+    System.out.println("hiyiu" == thing);
   }
 }

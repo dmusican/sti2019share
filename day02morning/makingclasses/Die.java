@@ -9,7 +9,7 @@ public class Die
         //topValue = 1;
         //numSides = 6;
         //roll();
-        
+        this(6);
     }
     
     public Die(int newSides)

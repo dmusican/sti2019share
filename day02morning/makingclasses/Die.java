@@ -2,7 +2,7 @@
 public class Die
 {
     private int topValue;
-    
+    private int numSides;
     
     public Die()
     {

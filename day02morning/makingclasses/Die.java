@@ -5,8 +5,9 @@ public class Die
     
     public Die()
     {
-        
+        topValue = 1;
     }
+    
     public int onTop()
     {
         return topValue;

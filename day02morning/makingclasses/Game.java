@@ -14,7 +14,7 @@ public class Game
         System.out.println(die2.onTop());
         die2.roll();
         System.out.println(die2.onTop());    
-        System.out.println(Die.getNumDice());
+        System.out.println("numdice = " + Die.getNumDice());
                
     }
         

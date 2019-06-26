@@ -5,7 +5,7 @@ public class Die
     
     public int onTop()
     {
-        return 0;
+        return topValue;
     }
     
     public void roll()

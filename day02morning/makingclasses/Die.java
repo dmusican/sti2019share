@@ -23,7 +23,8 @@ public class Die
     
     public static int getNumDice()
     {
-        
+        return numDiceCreated;
+    }
     
     public void setTop(int newTop)
     {

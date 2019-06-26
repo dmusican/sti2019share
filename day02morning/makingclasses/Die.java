@@ -5,6 +5,7 @@ public class Die
     
     public Die()
     {
+        
         topValue = 1;
     }
     

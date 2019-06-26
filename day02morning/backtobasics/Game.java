@@ -8,7 +8,9 @@ public class Game
     
     public static int rollTwice(int numSides)
     {
-        
+        return roll(numSides) + roll(numSides);
+    }
+    
     public static void main(String[] args)
     {
         System.out.println(roll(6));

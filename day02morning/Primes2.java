@@ -11,7 +11,8 @@ class Primes2 {
     
     for (String s : possiblePrime)
     {
-      System.out.println(s);
+      s = "hey";
+      //System.out.println(s);
     }
     
     /*

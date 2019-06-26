@@ -4,13 +4,13 @@ public class Die
     private int topValue;
     private int numSides;
     
-    public Die()
+    /*public Die()
     {
         //topValue = 1;
         numSides = 6;
         roll();
         //this(6);
-    }
+    }*/
     
     public Die(int newSides)
     {

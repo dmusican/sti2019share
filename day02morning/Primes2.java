@@ -24,6 +24,6 @@ class Primes2 {
           possiblePrime[j] = false;
         }
       }
-    }
-  }*/
+    }*/
+  }
 }

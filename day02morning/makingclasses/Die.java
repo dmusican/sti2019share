@@ -8,6 +8,7 @@ public class Die
     {
         //topValue = 1;
         roll();
+        
     }
     
     public void setTop(int newTop)

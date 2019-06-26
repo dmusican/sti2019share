@@ -13,7 +13,8 @@ public class Die
     
     public Die(int sides)
     {
-        
+        numSides = sides;
+    }
     
     public void setTop(int newTop)
     {

@@ -28,6 +28,6 @@ public class Die
     
     public void roll()
     {
-        topValue = (int)(Math.random()*6)+1;
+        topValue = (int)(Math.random()*numSides)+1;
     }
 }

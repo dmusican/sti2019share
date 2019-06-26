@@ -16,12 +16,12 @@ public class ParameterExample {
       method1(z);
       System.out.println(z);
 
-      /*System.out.println();
+      System.out.println();
 
       Wrapper w = new Wrapper();
       w.value = 5;
       System.out.println(w.value);
-      method2(w);
+      /*method2(w);
       System.out.println(w.value);*/
    }
 }

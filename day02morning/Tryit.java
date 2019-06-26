@@ -5,6 +5,6 @@ public class Tryit {
       thing += i;
     }
     System.out.println(thing);
-    System.out.println(thing == "012");
+    System.out.println(thing.equals("012"));
   }
 }

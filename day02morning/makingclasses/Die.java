@@ -11,7 +11,7 @@ public class Die
         numSides = 6;
     }
     
-    public Die(int sides)
+    public Die(int newSides)
     {
         numSides = sides;
     }

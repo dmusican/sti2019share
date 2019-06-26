@@ -11,7 +11,9 @@ public class Die
         numSides = 6;
     }
     
-    
+    public Die(int sides)
+    {
+        
     
     public void setTop(int newTop)
     {

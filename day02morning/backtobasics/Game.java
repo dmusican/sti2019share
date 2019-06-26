@@ -5,7 +5,7 @@ public class Game
     {
         System.out.println(roll(6));
         System.out.println(rollTwice(6));
-        System.out.println(roll(6));
+        System.out.println(roll(12));
         
     }
 

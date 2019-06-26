@@ -1,6 +1,10 @@
 public class Tryit {
   public static void main(String[] args) {
-    String thing = "h" + "iyiu";
-    System.out.println("hiyiu" == thing);
+    String thing = "";
+    for (int i=0; i < 3; i++) {
+      thing += i;
+    }
+    System.out.println(thing);
+    System.out.println(thing == "012");
   }
 }

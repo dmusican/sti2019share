@@ -7,6 +7,7 @@ public class Game
         System.out.println(die1.onTop());
         
         
+        
     }
         
 }

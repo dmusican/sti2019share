@@ -7,22 +7,12 @@ class Primes3 {
     ArrayList<Boolean> possiblePrime = new ArrayList<Boolean>();
     System.out.println(possiblePrime.size());
     
-    /*for (int i=0; i < possiblePrime.length; i++)
+    for (int i=0; i < numPrimes; i++)
     {
-      System.out.println(i + " " + possiblePrime[i]);
-    }*/
-    
-    /*for (String s : possiblePrime)
-    {
-      System.out.println(s);
-    }*/
-    
-    /*
-
-    for (int i=0; i < possiblePrime.length; i++)
-    {
-      possiblePrime[i] = "true";
+      possiblePrime.add(false);
     }
+
+    /*
 
     for (int i=2; i < possiblePrime.length; i++)
     {

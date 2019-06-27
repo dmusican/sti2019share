@@ -11,6 +11,9 @@ public class ShapeCreator {
             System.out.println(c.perimeter());
         } else {
             System.out.println("rectangle");
+            Rectangle r = new Rectangle();
+            System.out.println(r.area());
+            System.out.println(r.perimeter());
         }
     }
 }

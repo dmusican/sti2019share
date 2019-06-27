@@ -8,7 +8,8 @@ public class ShapeCreator {
         if (input.equals("c")) {
             System.out.println("circle");
             s = new Circle();
-            System.out.println(s.circumference());
+            Circle c = (Circle)s;
+            System.out.println(c.circumference());
         } else {
             System.out.println("rectangle");
             s = new Rectangle();

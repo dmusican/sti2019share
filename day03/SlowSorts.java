@@ -27,12 +27,12 @@ public class SlowSorts {
         }
     }
 
-    /*public static void insertionSort(int[] array)
+    public static void insertionSort(int[] array)
     {
-        for (int i=___________; i < ___________________________; i++)
+        for (int i= 1; i < array.length; i++)
         {
             int j = i;
-            while (j > 0 && ________________________________)
+            while (j > 0 && array[j] < array[j-1])
             {
                 swap(array,j,j-1);
                 j--;
@@ -40,7 +40,7 @@ public class SlowSorts {
         }
     }
 
-    public static void insertionSortOptimized(int[] array)
+    /*public static void insertionSortOptimized(int[] array)
     {
         for (int i = _______________; i < ________________________; i++)
         {

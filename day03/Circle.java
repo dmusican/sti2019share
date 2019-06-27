@@ -1,7 +1,7 @@
 public class Circle {
     private double radius;
     public Circle() {
-        radius = 2.0;
+        radius = 4.0;
     }
     public double area() {
         return Math.PI * radius * radius;

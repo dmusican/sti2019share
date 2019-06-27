@@ -3,6 +3,9 @@ public class Shape {
     public Shape() {
         name = "me";
     }
+    public Shape(String theName) {
+        name = theName;
+    }
     public String getName() {
         return name;
     }

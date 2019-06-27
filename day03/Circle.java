@@ -9,4 +9,7 @@ public class Circle extends Shape {
     public double perimeter() {
         return 2 * Math.PI * radius;
     }
+    public double circumference() {
+        return perimeter();
+    }
 }

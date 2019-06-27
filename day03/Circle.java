@@ -4,6 +4,7 @@ public class Circle extends Shape {
         radius = 4.0;
     }
     public Circle(String myName) {
+        super(myName);
         radius = 4.0;
     }
     public double area() {

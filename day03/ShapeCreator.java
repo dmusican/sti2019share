@@ -10,7 +10,7 @@ public class ShapeCreator {
             s = new Circle();
         } else {
             System.out.println("rectangle");
-            s = new Rectangle();
+            s = (Circle)(new Rectangle());
         }
         System.out.println(s.area());
         System.out.println(s.perimeter());

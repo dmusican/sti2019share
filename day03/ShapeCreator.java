@@ -6,6 +6,9 @@ public class ShapeCreator {
         String input = mk.next();
         if (input.equals("c")) {
             System.out.println("circle");
+            Circle c = new Circle();
+            System.out.println(c.area());
+            System.out.println(c.perimeter());
         } else {
             System.out.println("rectangle");
         }

@@ -6,8 +6,7 @@ public class Circle extends Shape {
     public double area() {
         return Math.PI * radius * radius;
     }
-    @Override
-    public double perimeterss() {
+    public double perimeters() {
         return 2 * Math.PI * radius;
     }
 }

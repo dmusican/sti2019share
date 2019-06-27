@@ -4,7 +4,7 @@ public class ShapeCreator {
         System.out.println("(c)ircle or (r)ectangle?");
         Scanner mk = new Scanner(System.in);
         String input = mk.next();
-        Circle s;
+        Shape s;
         if (input.equals("c")) {
             System.out.println("circle");
             s = new Circle();

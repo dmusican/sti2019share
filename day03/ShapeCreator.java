@@ -7,11 +7,11 @@ public class ShapeCreator {
         Shape s;
         if (input.equals("c")) {
             System.out.println("circle");
-            s = new Circle();
+            s = new Circle("i am circle roar");
             Circle c = (Circle)s;
             System.out.println(c.circumference());
         } else {
-            System.out.println("rectangle");
+            System.out.println("i am r me really");
             s = new Rectangle();
         }
         System.out.println(s.area());

@@ -59,7 +59,7 @@ public class SlowSorts {
     public static void main(String[] args)
     {
         int[] myArray = {6, 3, 1, 4, 9, 8};
-        selectionSort(myArray);
+        insertionSort(myArray);
         for (int value : myArray)
         {
             System.out.print(value + " ");

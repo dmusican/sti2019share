@@ -13,10 +13,10 @@ public class SlowSorts {
     {
         int smallestPos;
 
-        for (int i=0; i < _________________________; i++)
+        for (int i=0; i < array.length-1; i++)
         {
             smallestPos = i;
-            for (int j=______________; j < _____________________; j++)
+            for (int j=i+1; j < array.length; j++)
             {
                 if (array[j] < array[smallestPos])
                 {
@@ -27,7 +27,7 @@ public class SlowSorts {
         }
     }
 
-    public static void insertionSort(int[] array)
+    /*public static void insertionSort(int[] array)
     {
         for (int i=___________; i < ___________________________; i++)
         {
@@ -54,7 +54,7 @@ public class SlowSorts {
             }
             array[j] = swapVal;
         }
-    }
+        }*/
 
     public static void main(String[] args)
     {

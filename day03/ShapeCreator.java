@@ -11,8 +11,8 @@ public class ShapeCreator {
             Circle c = (Circle)s;
             System.out.println(c.circumference());
         } else {
-            System.out.println("i am r me really");
-            s = new Rectangle();
+            System.out.println("rectangle");
+            s = new Rectangle("rectangle i am");
         }
         System.out.println(s.area());
         System.out.println(s.perimeter());

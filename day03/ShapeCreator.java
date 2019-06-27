@@ -4,12 +4,13 @@ public class ShapeCreator {
         System.out.println("(c)ircle or (r)ectangle?");
         Scanner mk = new Scanner(System.in);
         String input = mk.next();
+        Circle s;
         if (input.equals("c")) {
             System.out.println("circle");
-            Circle s = new Circle();
+            s = new Circle();
         } else {
             System.out.println("rectangle");
-            Rectangle s = new Rectangle();
+            s = new Rectangle();
         }
         System.out.println(s.area());
         System.out.println(s.perimeter());

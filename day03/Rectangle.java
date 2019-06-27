@@ -5,6 +5,12 @@ public class Rectangle extends Shape {
         length = 3.0;
         width = 5.0;
     }
+    public Rectangle(String myName) {
+        super(myName);
+        length = 3.0;
+        width = 5.0;
+    }
+    
     public double area() {
         return length * width;
     }

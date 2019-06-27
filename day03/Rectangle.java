@@ -1,12 +1,14 @@
-public class Circle {
-    private double radius;
-    public Circle() {
-        radius = 4.0;
+public class Rectangle {
+    private double length;
+    private double width;
+    public Rectangle() {
+        length = 3.0;
+        width = 5.0;
     }
     public double area() {
-        return Math.PI * radius * radius;
+        return length * width;
     }
     public double perimeter() {
-        return 2 * Math.PI * radius;
+        return 2 * (length + width);
     }
 }

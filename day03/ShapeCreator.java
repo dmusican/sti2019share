@@ -16,5 +16,6 @@ public class ShapeCreator {
         }
         System.out.println(s.area());
         System.out.println(s.perimeter());
+        System.out.println(s.getName());
     }
 }

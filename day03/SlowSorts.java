@@ -58,7 +58,7 @@ public class SlowSorts {
 
     public static void main(String[] args)
     {
-        int[] myArray = {6, 3, 1, 4, 9, 8);
+        int[] myArray = {6, 3, 1, 4, 9, 8};
         selectionSort(myArray);
         for (int value : myArray)
         {

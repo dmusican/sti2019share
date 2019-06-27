@@ -1,0 +1,4 @@
+public class ShapeCreator {
+    public static void main(String[] args) {
+        System.out.println("(c)ircle or (r)ectangle?");
+        

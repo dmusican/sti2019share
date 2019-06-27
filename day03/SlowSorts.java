@@ -64,6 +64,6 @@ public class SlowSorts {
         {
             System.out.println(value + " ");
         }
-        System.out.println(value);
+        System.out.println();
     }
 }

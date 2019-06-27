@@ -3,10 +3,10 @@ public class Circle extends Shape {
     public Circle() {
         radius = 4.0;
     }
-    // public Circle(String myName) {
-    //     super(myName);
-    //     radius = 4.0;
-    // }
+    public Circle(String myName) {
+        super(myName);
+        radius = 4.0;
+    }
     public double area() {
         String it = super.getName();
         return Math.PI * radius * radius;

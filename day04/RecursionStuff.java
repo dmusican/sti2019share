@@ -25,11 +25,20 @@ public class RecursionStuff
       }
    }
    
+   public static void hanoi(int n, int start, int end, int temp)
+   {
+      if (n==1)
+      {
+         System.out.println("Move from " + start + " to " + end);
+      }
+   }
+   
    public static void main(String[] args)
    {
-      System.out.println(factorial(3));
-      System.out.println("friend");
-      System.out.println(reverse("towers of hanoi"));
+      //System.out.println(factorial(3));
+      //System.out.println("friend");
+      //System.out.println(reverse("towers of hanoi"));
+      hanoi(1,1,3,2);
    }
    
 }

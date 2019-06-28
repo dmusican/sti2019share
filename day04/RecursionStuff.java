@@ -36,6 +36,7 @@ public class RecursionStuff
          hanoi(n-1, start, temp, end);
          System.out.println("Move from " + start + " to " + end);
          hanoi(n-1, temp, end, start);
+      }
    }
    
    public static void main(String[] args)

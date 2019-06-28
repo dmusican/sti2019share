@@ -28,6 +28,7 @@ public class RecursionStuff
   public static void main(String[] args)
   {
     System.out.println(factorial(3));
+    System.out.println("friend");
     System.out.println(reverse("towers of hanoi"));
   }
   

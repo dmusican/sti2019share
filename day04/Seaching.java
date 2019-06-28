@@ -30,7 +30,7 @@ public class Seaching {
     }
   }
   
-  public static void binarySearchRecursive(int[] array, int target) {
+  public static int binarySearchRecursive(int[] array, int target) {
     return binarySearchRecursive(array, target, 0, array.length-1);
   }
       

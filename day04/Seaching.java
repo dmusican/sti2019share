@@ -15,7 +15,7 @@ public class Seaching {
     return -1;   // not found
   }
   
-  private static void binarySearchRecursive(int[] array, int target, int low, int high) {
+  private static int binarySearchRecursive(int[] array, int target, int low, int high) {
     if (low > high) {
       return -1;
     } else {

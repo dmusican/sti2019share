@@ -34,13 +34,7 @@ public class Seaching {
     return binarySearchRecursive(array, target, 0, array.length-1);
   }
       
-  
-  
-  
-  
-  
-  
-  public static void main(String[] args)
+    public static void main(String[] args)
   {
     int count = 30;
     int[] nums = new int[count];
@@ -54,8 +48,8 @@ public class Seaching {
       System.out.println(i + " " + nums[i]);
     }
     
-    System.out.println(binarySearch(nums,36));
-    System.out.println(binarySearch(nums,196));
-    System.out.println(binarySearch(nums,195));
+    System.out.println(binarySearchRecursive(nums,36));
+    System.out.println(binarySearchRecursive(nums,196));
+    System.out.println(binarySearchRecursive(nums,195));
   }
 }

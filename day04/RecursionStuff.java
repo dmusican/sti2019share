@@ -20,8 +20,9 @@ public class RecursionStuff
       }
       else
       {
-         return phrase.substring(phrase.length()-1) +
-                 reverse(phrase.substring(0,phrase.length()-1));
+         String backwards = reverse(phrase.substring(0,phrase.length()-1));
+         return phrase.substring(phrase.length()-1) + backwards;
+                 
       }
    }
    

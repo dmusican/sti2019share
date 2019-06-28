@@ -44,7 +44,7 @@ public class RecursionStuff
       //System.out.println(factorial(3));
       //System.out.println("friend");
       //System.out.println(reverse("towers of hanoi"));
-      hanoi(5,1,3,2);
+      hanoi(4,1,3,2);
    }
    
 }

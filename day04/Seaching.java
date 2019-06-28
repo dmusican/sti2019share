@@ -15,6 +15,31 @@ public class Seaching {
     return -1;   // not found
   }
   
+  private static void binarySearchRecursive(int[] array, int target, int low, int high) {
+    if (low > high) {
+      return -1;
+    } else {
+      int mid = (low + high)/2;
+      if (array[mid] < target) {
+        return binarySearchRecursive(array, target, mid+1, high);
+      } else if (array[mid] > target) {
+        return binarySearchRecursive(array, target, low, mid-1);
+      } else {
+        return mid;
+      }
+    }
+  }
+  
+  public static void binarySearchRecursive(int[] array, int target) {
+    return binarySearchRecursive(array, target, 0, array.length-1);
+  }
+      
+  
+  
+  
+  
+  
+  
   public static void main(String[] args)
   {
     int count = 30;

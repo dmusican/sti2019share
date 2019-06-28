@@ -31,6 +31,11 @@ public class RecursionStuff
       {
          System.out.println("Move from " + start + " to " + end);
       }
+      else
+      {
+         hanoi(n-1, start, temp, end);
+         System.out.println("Move from " + start + " to " + end);
+         hanoi(n-1, temp, end, start);
    }
    
    public static void main(String[] args)
@@ -38,7 +43,7 @@ public class RecursionStuff
       //System.out.println(factorial(3));
       //System.out.println("friend");
       //System.out.println(reverse("towers of hanoi"));
-      hanoi(1,1,3,2);
+      hanoi(3,1,3,2);
    }
    
 }
